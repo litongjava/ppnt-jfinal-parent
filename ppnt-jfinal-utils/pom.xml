@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>top.ppnt</groupId>
+    <artifactId>ppnt-jfinal-parent</artifactId>
+    <version>1.0</version>
+  </parent>
+  <artifactId>ppnt-jfinal-utils</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.jfinal</groupId>
+      <artifactId>jfinal</artifactId>
+      <version>4.9.22</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.litongjava</groupId>
+      <artifactId>litongjava-utils</artifactId>
+      <version>1.0.6</version>
+    </dependency>
+  </dependencies>
+</project>
